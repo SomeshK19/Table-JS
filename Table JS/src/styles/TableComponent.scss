@@ -1,0 +1,88 @@
+@use '/src/styles/color' as color;
+
+
+:global(.TableComponent__main) {
+  .MuiInputBase-root.MuiOutlinedInput-root {
+    height: 16px !important;
+  }
+
+  .MuiInputBase-input.MuiOutlinedInput-input {
+    height: 12px !important;
+  }
+
+  .MuiTablePagination-select {
+    position: relative !important;
+    bottom: 7px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .MuiTablePagination-displayedRows {
+    margin-bottom: 13px !important;
+  }
+
+   .MuiTablePagination-actions {
+    margin-bottom: 12px !important;
+  }
+
+  .MuiButtonBase-root.MuiIconButton-root {
+    color: color.$secondary-color !important;
+    background-color: color.$primary-color !important;
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: 3px !important;
+  }
+
+  .MuiButtonBase-root.MuiIconButton-root:hover {
+    color: #fff !important;
+    background-color: #00bc84 !important;
+  }
+  .editStyle{
+    cursor: pointer;
+  }
+}
+.groupby .MuiOutlinedInput-root{
+  min-width: 100px !important;
+  height: 33px !important;
+}
+
+.datatable{
+  .MuiOutlinedInput-root{
+    min-width: 85px !important;
+  }
+  .MuiSelect-icon {
+    color: #1a4b95 !important;
+  }
+  .MuiOutlinedInput-root {
+    height: 20px;
+    // min-width: 50px;
+    font-size: 14px;
+    padding: 0 5px;
+    color: white;
+    }
+    .MuiOutlinedInput-input {
+      color: white;
+      padding: 8.5px 4px;
+    }
+  .MuiTextField-root {
+    margin-top: 0px;
+    vertical-align: baseline;
+  }
+  .MuiInputLabel-root{
+    color: #ffffff75 !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    margin-top: -10px !important;
+    margin-left: 0px !important;
+  }
+  .MuiFormControl-root {
+    vertical-align: baseline;
+    height: 10px;
+  }
+  .MuiOutlinedInput-notchedOutline {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: white;
+}
+}
