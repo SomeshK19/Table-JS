@@ -44,10 +44,10 @@
     ],
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/yourusername/my-table-component.git"
+      "url": "git+https://github.com/SomeshK19/Table-JS"
     },
-    "homepage": "https://github.com/yourusername/my-table-component#readme",
+    "homepage": "https://github.com/SomeshK19/Table-JS",
     "bugs": {
-      "url": "https://github.com/yourusername/my-table-component/issues"
+      "url": "https://github.com/SomeshK19/Table-JS/issues"
     }
   }
