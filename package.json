@@ -1,0 +1,53 @@
+{
+  "name": "@somesh19/table-js",
+  "version": "1.0.0",
+  "description": "A customizable React table component with sorting, filtering, pagination, and Material-UI styling",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "@mui/material": "^5.0.0",
+    "@mui/icons-material": "^5.0.0",
+    "@mui/system": "^5.0.0",
+    "react-router-dom": "^6.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "rollup": "^4.22.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "sass": "^1.79.4",
+    "typescript": "^5.6.2"
+  },
+  "keywords": [
+    "react",
+    "table",
+    "material-ui",
+    "pagination",
+    "sorting",
+    "filtering",
+    "data-table"
+  ],
+  "author": "Somesh",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SomeshK19/Table-JS"
+  },
+  "homepage": "https://github.com/SomeshK19/Table-JS",
+  "bugs": {
+    "url": "https://github.com/SomeshK19/Table-JS/issues"
+  }
+}
